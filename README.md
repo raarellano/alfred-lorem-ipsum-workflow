@@ -16,3 +16,5 @@ By default the workflow will generate 1 item. Optionally, pass in the number of 
 ` lipsum 5`
 
 ![Alfred lorem ipsum screen shot](/screenshots/lipusm-screenshot.png?raw=true "Alfred lorem ipsum screen shot")
+
+[DOWNLOAD](https://raw.githubusercontent.com/raarellano/alfred-lorem-ipsum-workflow/master/package/Lorem%20Ipsum.alfredworkflow)
