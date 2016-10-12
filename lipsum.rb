@@ -27,6 +27,7 @@ url = URI.parse('http://www.freeformatter.com/lorem-ipsum-generator.html')
 resp = Net::HTTP.post_form(url, params)
 content = resp.body
 content = resp.body.gsub(/<\/\li>/, "\n").gsub(/<\/?[^>]*>/, "") if mode == 'l'
+content = content.strip
 
 # Return content
-puts content
+print content
