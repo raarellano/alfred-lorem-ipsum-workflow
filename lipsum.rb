@@ -11,7 +11,7 @@ def set_params amount, what
 end
 
 def get_lipsum params
-	url = URI.parse('http://www.lipsum.com/feed/json')
+	url = URI.parse('https://www.lipsum.com/feed/json')
 	resp = Net::HTTP.post_form(url, params)
 	content = resp.body
 end
