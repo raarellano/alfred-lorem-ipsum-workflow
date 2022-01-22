@@ -1,7 +1,7 @@
 # Generate lorem ipsum text from Alfred 
 This workflow will generate lorem ipsum text from the lorem ipsum generator at [Lipsum.com](http://www.lipsum.com/) 
 
-## Ussage
+## Usage
 Ussage: lipsum [query]
 
 There are three items to pick from:
